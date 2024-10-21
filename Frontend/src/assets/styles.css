@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* headers styles starts */
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.not-active-class {
+    margin-left: 15px;
+    text-decoration-line: none;
+    color: black;
+    font-size: 17px;
+}
+
+.lactive-class {
+    margin-left: 15px;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.headers>div>h3>a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.header_right_cont>ul>li{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header_right_cont>ul>li:hover{
+    color: blue;
+}
+
+/* headers styles ends */
+
+
+
+
+
+
+
+
+
+/* dashboard styles starts */
+.count_cards{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.single_card{
+    border: 1px solid rgb(228, 227, 227);
+    width: 19%;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.single_card>h5{
+    text-align: center;
+    font-size: 18px;
+}
+
+.single_card>p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.dashboard{
+    padding: 1%;
+}
+
+.graphs_first_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.graphs_first_row>div{
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 3px;
+}
+
+.graphs_first_row>div>img{
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+}
+
+/* dashboard styles ends */
+
+
+/* home page styles starts */
+.home_page>h1{
+    margin: 10% 0px;
+    text-align: center;
+}
+/* home page styles ends */
